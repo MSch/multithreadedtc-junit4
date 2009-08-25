@@ -1,0 +1,12 @@
+*.class
+*~
+.*.swp
+.*.swo
+.loadpath
+.buildpath
+.project
+.classpath
+target
+.settings
+nbproject
+.DS_Store
