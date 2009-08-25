@@ -7,6 +7,14 @@
   <name>MultithreadedTC</name>
   <url>http://code.google.com/p/multithreadedtc-junit4/</url>
 
+  <licenses>
+    <license>
+      <name>The BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
