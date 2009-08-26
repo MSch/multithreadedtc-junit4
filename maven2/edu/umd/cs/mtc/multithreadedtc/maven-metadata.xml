@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>edu.umd.cs.mtc</groupId>
+  <artifactId>multithreadedtc</artifactId>
+  <version>1.01-junit4</version>
+  <versioning>
+    <versions>
+      <version>1.01-junit4</version>
+    </versions>
+    <lastUpdated>20090826101406</lastUpdated>
+  </versioning>
+</metadata>
