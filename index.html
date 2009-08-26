@@ -49,11 +49,11 @@
       <span class="small">by <a href="http://github.com/MSch">MSch</a></span></h1>
 
     <div class="description">
-      Mavenized build of http://code.google.com/p/multithreadedtc-junit4/
+      Mavenized build of <a href="http://code.google.com/p/multithreadedtc-junit4/">http://code.google.com/p/multithreadedtc-junit4/</a>
     </div>
 
     <h2>Contact</h2>
-<p>martin@schuerrer.org</p>
+    <p><a href="mailto:martin@schuerrer.org">martin@schuerrer.org</a></p>
 
     <h2>Maven2 Repository</h2>
     <p>
@@ -61,8 +61,15 @@
       <pre>&lt;repository&gt;
   &lt;id&gt;multithreadedtc-junit4&lt;/id&gt;
   &lt;name&gt;multithreadedtc-junit4&lt;/name&gt;
-  &lt;url&gt;http://msch.github.com/multithreadedtc-junit4/maven2/&lt;/url&gt;
+  &lt;url&gt;http://msch.github.com/multithreadedtc-junit4/maven2&lt;/url&gt;
 &lt;/repository&gt;</pre>
+      then in your pom.xml you can add multithreadedtc-junit4 as dependency:
+      <pre>&lt;dependency&gt;
+  &lt;groupId&gt;edu.umd.cs.mtc&lt;/groupId&gt;
+  &lt;artifactId&gt;multithreadedtc&lt;/artifactId&gt;
+  &lt;version&gt;1.01-junit4&lt;/version&gt;
+  &lt;scope&gt;test&lt;/scope&gt;
+&lt;/dependency&gt;</pre>
     </p>
 
     <h2>Download</h2>
